@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+#DIVsaisie {
+  height: 90%;
+  width: 50%;
+  border: solid;
+  position: relative;
+}
+
+#DIVanalyse {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 40%;
+  position: relative;
+}
+
+#DIVlettre, #DIVmot, #DIVphrase {
+  width: 90%;
+  height: 30%;
+  border : solid;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
